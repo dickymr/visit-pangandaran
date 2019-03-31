@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo-company {
+  height: 100px;;
+  display: flex;
+  align-items: center;
+  background-image: url(./images/header-bg.jpg);
+  padding-left: 40px;
+}
+
+.logo-company img {
+  width: 300px;
+  height: 45px;
+}
+
