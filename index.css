@@ -3,6 +3,14 @@
   padding: 0px;
 }
 
+body {
+  background-color: #F6F6F6;
+}
+
+a {
+  text-decoration: none;
+}
+
 .logo-company {
   height: 100px;;
   display: flex;
@@ -14,5 +22,34 @@
 .logo-company img {
   width: 300px;
   height: 45px;
+}
+
+.navigation {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding-left: 75px;
+  border-bottom: 0.1px #eac7c7 solid;
+}
+
+.navigation a {
+  font-family: 'Pavanam';
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  margin-right: 75px;
+}
+
+/* .navigation a:hover {
+  background-color: #7F76E0;
+} */
+
+.navigation .this {
+height: 30px;
+display: flex;
+align-items: center;
+background-color: blue;
+color: white;
 }
 
