@@ -53,3 +53,55 @@ background-color: blue;
 color: white;
 }
 
+
+
+
+
+
+
+footer {
+
+}
+
+
+.top-footer {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./images/top-footer-bg.jpg);
+  padding-top: 50px;
+}
+
+.top-footer h5, p, a {
+  font-family: 'Hind';
+  color: white;
+}
+
+.top-footer h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.top-footer p, a {
+  font-size: 18px;
+}
+
+
+.top-footer-content {
+
+
+}
+
+.bottom-footer {
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30349C;
+}
+
+.bottom-footer p {
+  font-family: 'Pavanam';
+  font-size: 18px;
+}
