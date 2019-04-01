@@ -67,7 +67,21 @@ a {
 }
 
 .content {
- height: 700px;
+ height: 500px;
+ padding: 100px 200px;
+}
+
+.content h2 {
+  font-family: 'Hind';
+  font-size: 32px;
+}
+
+.content p {
+  font-family: 'Pavanam';
+  font-size: 26px;
+  line-height: 70px;
+  text-align: justify;
+  color: black;
 }
 
 
