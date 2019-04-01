@@ -87,6 +87,7 @@ a {
 .content .textbox {
   width: 400px;
   height: 50px;
+  background-color: #EEEDF4;
   padding-left: 20px;
   border: 0.1px #eac7c7 solid;
   margin-bottom: 20px;
