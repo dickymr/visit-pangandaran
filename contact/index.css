@@ -67,7 +67,74 @@ a {
 }
 
 .content {
- height: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 200px;
+}
+
+.content h2 {
+  font-family: 'Hind';
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.content .textfield, .textarea {
+  font-family: 'Pavanam';
+  font-size: 16px;
+}
+
+.content .textfield {
+  width: 400px;
+  height: 50px;
+  padding-left: 20px;
+  border: 0.1px #eac7c7 solid;
+  margin-bottom: 20px;
+ 
+}
+
+.content #name-tf {
+  background: url(../images/icon-name.png) left center no-repeat;
+}
+
+.content #email-tf {
+  background: url(../images/icon-email.png) left center no-repeat;
+}
+
+.content .form-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.content .textarea {
+  width: 825px;
+  height: 250px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: 0.1px #eac7c7 solid;
+  margin-bottom: 30px;
+}
+
+.content #message-ta {
+  background: url(../images/icon-email.png) left center no-repeat;
+}
+
+
+.content button {
+  width: 850px;
+  height: 50px;
+  background-color: #30349C;
+  font-family: 'Hind';
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.content button:hover {
+  background-color: white;
+  color: #30349C;
+  font-size: 24px;
 }
 
 
