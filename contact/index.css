@@ -79,12 +79,12 @@ a {
   margin-bottom: 10px;
 }
 
-.content .textfield, .textarea {
+.content .textbox, .textarea {
   font-family: 'Pavanam';
   font-size: 16px;
 }
 
-.content .textfield {
+.content .textbox {
   width: 400px;
   height: 50px;
   padding-left: 20px;
@@ -94,11 +94,11 @@ a {
 }
 
 .content #name-tf {
-  background: url(../images/icon-name.png) left center no-repeat;
+  
 }
 
 .content #email-tf {
-  background: url(../images/icon-email.png) left center no-repeat;
+  
 }
 
 .content .form-bottom {
@@ -115,7 +115,7 @@ a {
 }
 
 .content #message-ta {
-  background: url(../images/icon-email.png) left center no-repeat;
+  
 }
 
 
