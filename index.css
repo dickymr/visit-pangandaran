@@ -188,7 +188,6 @@ font-size: 64px;
   height: 260px;
   display: flex;
   justify-content: space-around;
-  /* background-image: url(./images/top-footer-bg.jpg); */
   background-image:  linear-gradient(to right, #7F76E0 50%, #BAB6EB);
   background-repeat: no-repeat;
 }
